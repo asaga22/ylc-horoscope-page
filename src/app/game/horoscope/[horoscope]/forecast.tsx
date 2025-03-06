@@ -2,7 +2,7 @@ import React from 'react';
 
 const Forecast = () => {
   return (
-    <div className="bg-gray-50 rounded-lg p-6 mb-8">
+    <section className="bg-gray-50 rounded-lg p-6 mb-8">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold text-gray-800">FORECAST</h2>
         <div className="flex items-center">
@@ -166,7 +166,7 @@ const Forecast = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

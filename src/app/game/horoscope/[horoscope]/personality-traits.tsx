@@ -1,6 +1,6 @@
 const PersonalityTraits: React.FC = () => {
   return(
-    <div className="mb-8">
+    <section className="mb-8">
       <h2 className="text-xl font-bold text-gray-800 mb-6">PERSONALITY TRAITS</h2>
       <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 mb-6">
         <div className="bg-gray-50 rounded-lg py-2 px-3 text-center text-sm">Adventurous</div>
@@ -35,7 +35,7 @@ const PersonalityTraits: React.FC = () => {
           The best matches for an Aries are Gemini, Leo, Sagittarius, and Aquarius.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,6 +1,6 @@
 const Famous: React.FC = () => {
   return (
-    <div className="mb-12">
+    <section className="mb-12">
       <h2 className="text-xl font-bold text-gray-800 mb-6">FAMOUS ARIES</h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
         <div className="bg-gray-50 rounded-lg py-2 px-3 text-center">Reese Witherspoon</div>
@@ -21,7 +21,7 @@ const Famous: React.FC = () => {
         <div className="bg-gray-50 rounded-lg py-2 px-3 text-center">Eddie Murphy</div>
         <div className="bg-gray-50 rounded-lg py-2 px-3 text-center">Robert Downey Jr.</div>
       </div>
-    </div>
+    </section>
   );
 }
 

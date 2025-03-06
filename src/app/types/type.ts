@@ -1,4 +1,6 @@
 export interface ZodiacSign {
+  '@context'?: string;
+  '@type'?: string;
   slug: string;
   name: string;
   dateStart: string;
@@ -22,6 +24,8 @@ export interface ZodiacGift {
 
 export const ZODIAC_SIGNS: ZodiacSign[] = [
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'aries',
     name: 'Aries',
     dateStart: '03-21',
@@ -44,6 +48,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'taurus',
     name: 'Taurus',
     dateStart: '04-20',
@@ -66,6 +72,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'gemini',
     name: 'Gemini',
     dateStart: '05-21',
@@ -88,6 +96,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'cancer',
     name: 'Cancer',
     dateStart: '06-21',
@@ -110,6 +120,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'leo',
     name: 'Leo',
     dateStart: '07-23',
@@ -132,6 +144,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'virgo',
     name: 'Virgo',
     dateStart: '08-23',
@@ -154,6 +168,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'libra',
     name: 'Libra',
     dateStart: '09-23',
@@ -176,6 +192,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'scorpio',
     name: 'Scorpio',
     dateStart: '10-23',
@@ -198,6 +216,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'sagittarius',
     name: 'Sagittarius',
     dateStart: '11-22',
@@ -220,6 +240,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'capricorn',
     name: 'Capricorn',
     dateStart: '12-22',
@@ -242,6 +264,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'aquarius',
     name: 'Aquarius',
     dateStart: '01-20',
@@ -264,6 +288,8 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     }
   },
   {
+    "@context": "https://schema.org",
+    "@type": "Article",
     slug: 'pisces',
     name: 'Pisces',
     dateStart: '02-19',

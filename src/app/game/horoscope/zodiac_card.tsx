@@ -7,7 +7,7 @@ import { toCompleteMonthName } from '@/app/utils/util';
 
 const ZodiacCard: React.FC<ZodiacSign> = (zodiac) => {
   return (
-    <div className="rounded-2xl border border-gray-200 p-6 mb-6 hover:shadow-lg transition duration-300 ease-in-out">
+    <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-6 hover:shadow-lg transition duration-300 ease-in-out">
       <div className="flex flex-col md:flex-row gap-4 border-b-2 border-gray-100 pb-4">
         {/* Zodiac Icon and Header */}
         <div className="flex items-start space-x-4">

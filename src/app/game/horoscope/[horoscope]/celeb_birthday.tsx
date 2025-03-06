@@ -2,7 +2,7 @@ import React from "react";
 
 const CelebBirthday: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
       <div className="bg-gray-50 rounded-lg p-6">
         <h3 className="font-medium text-gray-800 mb-3">Celebrities born on: Feb 22</h3>
         <p className="text-sm text-gray-600 leading-relaxed">
@@ -47,7 +47,7 @@ const CelebBirthday: React.FC = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 };
 

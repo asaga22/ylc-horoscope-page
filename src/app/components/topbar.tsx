@@ -1,5 +1,3 @@
-"use client";
-
 import Image from 'next/image'
 import Advertisement from './advertisement';
 import React from 'react';

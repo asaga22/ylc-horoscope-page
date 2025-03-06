@@ -1,6 +1,6 @@
 const Signup: React.FC = () => {
   return(
-    <div className="bg-white shadow-md rounded-lg p-4 flex gap-4 items-center">
+    <section className="bg-white shadow-md rounded-lg p-4 flex gap-4 items-center">
       <div className="text-red-500 text-2xl">
         🔮
       </div>
@@ -15,7 +15,7 @@ const Signup: React.FC = () => {
           Sign up now
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 
